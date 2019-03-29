@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.demo.lijian.windowmanagerdemo.util.ForeverMarqueeTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:gravity="left|center"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:minHeight="40dp"
+        android:scrollHorizontally="true"
+        android:textColor="@color/colorAccent"
+        android:text="从小工到大家，这点的实现主要将悬浮窗设置为全屏大小，外层有个透明背景，中间一部分视为内容区域adadadadadadadada"
+        android:textScaleX="1.0"
+        android:textSize="13sp" />
+
+</LinearLayout>
